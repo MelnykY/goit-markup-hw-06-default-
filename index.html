@@ -292,8 +292,7 @@
                             </svg></a>
                     </li>
                     <li class="clients-list-item"><a class="clients-item-link link" href="#" target="_self"
-                            rel="noopener noreferrer"><svg class="clients-icon" width="106"
-                                height="60">
+                            rel="noopener noreferrer"><svg class="clients-icon" width="106" height="60">
                                 <use href="./img/icons.svg/symbol-defs.svg#icon-Client-3"></use>
                             </svg></a>
                     </li>
@@ -379,6 +378,80 @@
                     <use href="./img/icons.svg/symbol-defs.svg#icon-close-black"></use>
                 </svg>
             </button>
+
+            <form class="register-form" name="register-form" autocomplete="off" method="POST"
+                action="javascript:void(0);">
+                <strong class="register-form-title">Залиште свої дані, ми вам передзвонимо</strong>
+
+                <div class="register-form-group" role="group">
+                    <label class="register-form-field">
+                        <input 
+                        class="register-form-input" 
+                        type="text" 
+                        name="" 
+                        required 
+                        minlength="3"
+                        placeholder="&nbsp;" 
+                        />
+                        <span class="register-form-label">Ім'я</span>
+                        <svg class="register-form-icon" width="18" height="18">
+                            <use href="./img/icons.svg/symbol-defs.svg#icon-person"></use>
+                        </svg>
+                    </label>
+
+                    <label class="register-form-field">
+                        <input 
+                        class="register-form-input" 
+                        type="text" 
+                        name="" 
+                        required 
+                        minlength="3"
+                        placeholder="&nbsp;" 
+                        />
+                        <span class="register-form-label">Телефон</span>
+                        <svg class="register-form-icon" width="18" height="18">
+                                <use href="./img/icons.svg/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                    </label>
+
+                        <label class="register-form-field">
+                        <input 
+                        class="register-form-input" 
+                        type="text" 
+                        name="" 
+                        required minlength="3" 
+                        placeholder="&nbsp;" />
+                        <span class="register-form-label">Пошта</span>
+                        <svg class="register-form-icon" width="18" height="18">
+                            <use href="./img/icons.svg/symbol-defs.svg#icon-email"></use>
+                        </svg>
+                    </label>
+
+                    <label class="register-form-field">
+                        <span class="register-form-heading">Коментар</span>
+                        <textarea 
+                        class="register-form-message" 
+                        type="text" 
+                        name="" 
+                        required 
+                        minlength="5" 
+                        placeholder="Введіть текст"></textarea>
+                    </label>
+                </div>
+                
+                <label class="register-form-agreement">
+                   <input class="register-form-checkbox visually-hidden" type="checkbox" name="" id="" />
+                     <svg class="register-form-icons" width="16" height="15">
+                       <use class="icon-checked" href="./img/icons.svg/symbol-defs.svg#icon-icon-check"></use>
+                       <use class="icon-unchecked" href="./img/icons.svg/symbol-defs.svg#icon-icon-check"></use>
+                    </svg>
+                    <span class="register-form-desc">
+                    Погоджуюся з розсилкою та приймаю 
+                    <a class="register-form-link" href="" target="_blank">Умови договору</a>
+                    </span>
+                </label>
+                <button class="register-form-btn" type="submit">Відправити</button>
+            </form> 
         </div>
     </div>
     <script src="./js/modal.js"></script>
